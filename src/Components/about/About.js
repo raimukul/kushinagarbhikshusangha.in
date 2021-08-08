@@ -13,7 +13,7 @@ function About() {
     return (
         <div>
             <Container>
-                <Card className='p-5'>
+                <Card className='p-3'>
                     <p className='h5'>About us:</p>
                     <p>Kushinagar Bhikshu Sangha is a well known society of Kushinagar, the <em>mahāparinabbāna</em>
                         place of Gautam Buddha. On 18<sup>th</sup> December 1952, it was established by Ven. Bhikhsu U. Chandramani
@@ -24,7 +24,7 @@ function About() {
                         welfare of all beings without any discrimination of caste, coulour, belief, religion, nationality etc.</p>
                 </Card>
                 <div className='pt-2'>
-                    <Card className='p-5'>
+                    <Card className='p-3'>
                         <p className='h5'>About Founder:</p>
 
                         <p>The most venerable Bhikshu U. Chandramani Mahasthavir is considered as the main contributer in the upliftment of
@@ -56,9 +56,9 @@ function About() {
                     </Card>
                 </div>
                 <p className='h4 pt-5'>Office Bearers:</p>
-                <Card className='p-5'>
+                <Card className='p-3'>
                     <Row>
-                        <Col>
+                        <Col md="8">
                             <p><b>President</b></p>
                             <p>Aggamahapandita Bhadant Gyaneshwar,</p>
                             <p>Myanmar Buddhist Temple, Buddhanagari, Kushinagar,</p>
@@ -66,57 +66,59 @@ function About() {
                             <p>Contact no.: +91-9794625059</p>
                             <p>&nbsp;</p>
                         </Col>
-                        <Col>
+                        <Col md="4">
                             <Image src={President} className='w-50' rounded />
                         </Col>
                     </Row>
                 </Card>
                 <div className='pt-2'>
-                    <Card className='p-5'>
+                    <Card className='p-3'>
                         <Row>
-                            <Col><p><b>Vice-President</b></p>
+                            <Col md="8"><p><b>Vice-President</b></p>
                                 <p>Bhikshu Wannadhaja Mahathera</p>
                                 <p>Myanmar Buddha Vihara,</p>
                                 <p>Sarnath, Varanasi, Uttar Pradesh (India)</p> </Col>
-                            <Col><Image src={VicePresident} className='w-50' rounded /> </Col>
+                            <Col md="4"><Image src={VicePresident} className='w-50' rounded /> </Col>
                         </Row>
                     </Card>
                 </div>
                 <div className='pt-2'>
-                    <Card className='p-5'>
-                        <Row>
-                            <Col>     <p><b>Secretary</b></p>
+                    <Card className='p-3'>
+                        <Row >
+                            <Col md="8">     <p><b>Secretary</b></p>
                                 <p>Bhikshu Nanda Mahathera,</p>
                                 <p>Myanmar Buddhist Temple, Sankisa,</p>
                                 <p>District: Farrukhabad, Uttar Pradesh (India)</p>
                                 <p>Contact no.: +91-9415333291</p></Col>
-                            <Col><Image src={Secretary} className='w-50' rounded /> </Col>
+                            <Col md="4"><Image src={Secretary} className='w-50' rounded /> </Col>
                         </Row>
                     </Card>
                 </div>
                 <div className='pt-2'>
-                    <Card className='p-5'>
+                    <Card className='p-3'>
                         <Row>
-                            <Col><p><b>Treasurer</b></p>
+                            <Col md="8"><p><b>Treasurer</b></p>
                                 <p>Bhikshu Sobhana Mahathera,</p>
                                 <p>Burmese Buddha Vihara,</p>
                                 <p>D/64, Sigra, Varanasi, Uttar Pradesh (India)</p>
                                 <p>Contact no.: +91-9415302376</p> </Col>
-                            <Col><Image src={Treasurer} className='w-50' rounded /> </Col>
+                            <Col md="4"><Image src={Treasurer} className='w-50' rounded /> </Col>
                         </Row>
                     </Card>
                 </div>
                 <div className='pt-2'>
-                    <Card className='p-5'>
+                    <Card className='p-3'>
                         <Row>
-                            <Col><p><b>Joint Secretary</b></p>
+                            <Col md="8">
+                            <p><b>Joint Secretary</b></p>
                                 <p>Dr. Bhikkhu Nand Ratan Thero</p>
                                 <p>Monk-in-Chief,</p>
                                 <p>Sri Lanka Buddha Vihara,</p>
                                 <p>Near Mukutbandhan Chaitya, Kushinagar,</p>
                                 <p>Post &amp; District: Kushinagar, Uttar Pradesh (India)</p>
                                 <p>Contact no.: +91-9935874061</p> </Col>
-                            <Col><Image src={VicePresident} className='w-50' rounded /> </Col>
+                            <Col md="4">
+                            <Image src={VicePresident} className='w-50' rounded /> </Col>
                         </Row>
                     </Card>
                 </div>
