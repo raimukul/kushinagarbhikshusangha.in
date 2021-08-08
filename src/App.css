@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.bg-header{
+  background-color: #df962a!important;
+}
+.navbar-brand {
+  font-weight: 500;
+}
+.nav-link {
+  color: rgb(255 255 255) !important;
+  font-weight: 400!important;
+}
