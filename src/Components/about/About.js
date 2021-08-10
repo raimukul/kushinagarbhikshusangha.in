@@ -112,15 +112,18 @@ function About() {
                     <Card className='p-3'>
                         <Row>
                             <Col md="8">
+                            <div>
                             <p><b>Joint Secretary</b></p>
                                 <p>Dr. Bhikkhu Nand Ratan Thero</p>
                                 <p>Monk-in-Chief,</p>
                                 <p>Sri Lanka Buddha Vihara,</p>
                                 <p>Near Mukutbandhan Chaitya, Kushinagar,</p>
                                 <p>Post &amp; District: Kushinagar, Uttar Pradesh (India)</p>
-                                <p>Contact no.: +91-9935874061</p> </Col>
-                            <Col md="4" className='d-flex justify-content-center text-center'>
-                            <Image src={VicePresident} className='w-50' rounded /> </Col>
+                                <p>Contact no.: +91-9935874061</p>
+                            </div>
+                            </Col>
+                            <Col md="4" className='d-flex justify-content-center'>
+                                <Image src={VicePresident} className='w-50' rounded /> </Col>
                         </Row>
                     </Card>
                 </div>
