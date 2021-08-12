@@ -1,51 +1,155 @@
 import React from 'react'
-import Gallery from 'react-grid-gallery';
-import Image1 from './images/Nibbāna Bodhi (Front Side) Vol1.jpg'
-import Image2 from './images/Nibbāna Bodhi (Front Side) Vol2.jpg'
-import Image3 from './images/Nibbāna Bodhi (Front Side) Vol3.jpg'
-import Image4 from './images/Nibbāna Bodhi (Front Side) Vol4.jpg'
-import Image5 from './images/Nibbāna Bodhi (Front Side) Vol5.jpg'
-import Image6 from './images/Nibbāna Bodhi (Front Side) Vol6.jpg'
-import Image7 from './images/Nibbāna Bodhi (Front Side) Vol7.jpg'
-import Image8 from './images/Nibbāna Bodhi (Front Side) Vol8.jpg'
-import Image9 from './images/Nibbāna Bodhi (Front Side) Vol9.jpg'
-import Image10 from './images/Nibbāna Bodhi (Front Side) Vol10.jpg'
-import Image11 from './images/Nibbāna Bodhi (Front Side) Vol11.jpg'
-import Image12 from './images/Nibbāna Bodhi (Front Side) Vol12.jpg'
-import Image13 from './images/Nibbāna Bodhi (Front Side) Vol122.jpg'
 
-
-
-
-function Photos() {
-    const IMAGES =
-[{
-        src: './images/Nibbāna Bodhi (Front Side) Vol1.jpg',
-        thumbnail: './images/Nibbāna Bodhi (Front Side) Vol1.jpg',
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        caption: "After Rain (Jeshu John - designerspics.com)"
-},
-{
-        src: {Image2},
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},
-
-{
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
-}]
+export default function Photos() {
     return (
         <div>
-            <Gallery images={IMAGES}/>
+            <div className="container">
+
+                <h1 className="fw-light text-center text-lg-start mt-4 mb-0">Thumbnail Gallery</h1>
+
+                <hr className="mt-2 mb-5"></hr>
+
+                <div className="row text-center text-lg-start">
+
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol1.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol2.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol3.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol4.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol5.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol6.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol7.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol8.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol801.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol9.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol10.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol11.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/Nibbāna Bodhi (Front Side) Vol12.jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (3).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (1).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (8).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (9).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (10).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (11).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (12).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (5).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (2).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (13).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (6).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (7).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <div className="d-block mb-4 h-100">
+                            <img className="img-fluid img-thumbnail" src="./images/kushinagar (4).jpg" alt="Nibbana Bodhi"></img>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }
-
-export default Photos
