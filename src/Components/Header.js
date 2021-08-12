@@ -15,7 +15,7 @@ function Header() {
                             <Nav.Link eventKey={2} activeClassName='active' href="/about">About</Nav.Link>
                             <Nav.Link eventKey={2} activeClassName='active' href="/centres-and-activities">Centres & Activities</Nav.Link>
                             <Nav.Link eventKey={2} activeClassName='active' href="/publication">Publication</Nav.Link>
-                            <Nav.Link eventKey={2} activeClassName='active' href="/">Gallery</Nav.Link>
+                            <Nav.Link eventKey={2} activeClassName='active' href="/gallery">Gallery</Nav.Link>
                             <Nav.Link eventKey={2} activeClassName='active' href="/contact">Contact us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

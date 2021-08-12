@@ -104,7 +104,7 @@ function Publication() {
                     <p>&nbsp;</p>
                     <p><b>Evaluation Committee: </b></p>
                     <ol>
-                        <li>Prof. Bhikshu Thic Nat Tu, Dean, Faculty of International Buddhist Studies, Vietnam Buddhist University, Ho Chi Mih City (Vietnam)</li>
+                        <li>Prof. Bhikshu Thic Nhat Tu, Dean, Faculty of International Buddhist Studies, Vietnam Buddhist University, Ho Chi Mih City (Vietnam)</li>
                         <li>Ven. Welivita Soratha Thero, Head, Department of Practical Buddhist Studies, Bhikshu University of Sri Lanka, New Puttalam Road, Anuradhapura (Sri Lanka)</li>
                         <li>Prof. Koswatha, Professor, Dhammanuradha International Vipassana Centre, Anuradhapura (Sri Lanka)</li>
                         <li>Prof. Volkmar Enslin, Director, International School of Jain Studies, Bangkok (Thailand)</li>
@@ -123,9 +123,9 @@ function Publication() {
                     </ol>
                     <p><b>Editorial Address: </b></p>
                     <p>Kushinagar Bhikshu Sangha</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buddhanagari, Post Office - Kushinagar</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; District: Kushinagar-274403, Uttar Pradesh (India)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact No: 9935874061, 9868060572 &amp; 9454890262</p>
+                    <p> Buddhanagari, Post Office - Kushinagar</p>
+                    <p> District: Kushinagar-274403, Uttar Pradesh (India)</p>
+                    <p> Contact No: 9935874061, 9868060572 &amp; 9454890262</p>
                     <p><b>&nbsp;</b></p>
                     <p><b>Guidelines for Writing the Article and its Submission for the Publication in the Nibbāna Bodhi:</b></p>
                     <p>The <em>Nibbāna Bodhi: </em><em>The Research Journal of Religion, Philosophy, Culture and Social Science (An International Peer Reviewed Refereed Research Journal)</em> seeks to publish quality, peer-reviewed articles in Hindi, English, and Pāli languages on any aspect of Pāli literature and Buddhism. It is published twice in a year. Kindly use the Roman Script for English paper and use Devanagari Script for Hindi paper, but both scripts may be used for the article of Pāli language. The articles as well reviews of the books should be sent to the Editor, Dr. Gyanaditya Shakya (Email: <a href="mailto:gyanaditya@gmail.com">gyanaditya@gmail.com</a>).</p>
