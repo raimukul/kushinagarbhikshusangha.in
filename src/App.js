@@ -7,6 +7,7 @@ import About from './Components/about/About';
 import Activity from './Components/Activities';
 import Contact from './Components/contact/Contact'
 import  Gallery  from './Components/gallery/Photos'
+import Footer from './Components/footer/Footer'
 import Publication from './Components/publication/Publication'
 
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/publication" component={Publication} />
       </Router>
+      <Footer />
     </div>
   );
 }
