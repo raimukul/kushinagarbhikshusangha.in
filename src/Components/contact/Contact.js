@@ -1,6 +1,8 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import "./Contact.css"
+import { FaPhoneSquareAlt } from "react-icons/fa";
+
 
 function Contact() {
     return (
@@ -15,21 +17,28 @@ function Contact() {
                     <div className="formgroup" id="name-form">
                         <Container>
                             <p className='font-weight-bolder maint h3'>Kushinagar Bhikshu Sangha</p>
-                            <p className='maint1 h4'>Myanmar Buddhist Temple, Buddhanagari, Kushinagar</p>
-                            <h4><b>Post & District:</b> Kushinagar-274403, Uttar Pradesh (India)</h4>
-                            <h4><b>Email:</b> <a href="mailto: kushinagarbhikshusangh@gmail.com" className='text-decoration-none h5'>kushinagarbhikshusangh@gmail.com</a></h4>
-                            <h4>Contact no.:
-                                <ul className='ml-5'>
-                                    <li>
-                                        <a href="tel:+91-9794625059" className='text-decoration-none h5'>+91-9794625059</a>
-                                    </li>
-                                    <li>
-                                        <a href="tel:+91-9455044309" className='text-decoration-none h5'>+91-9455044309</a>
-                                    </li>
-                                    <li>
-                                        <a href="tel:+91-9935874061" className='text-decoration-none h5'>+91-9935874061</a>
-                                    </li>
-                                </ul></h4>
+                            <p className='h5'>Myanmar Buddhist Temple, Buddhanagari, Kushinagar</p>
+                            <p className='h5'>Post & District: Kushinagar-274403, Uttar Pradesh (India)</p>
+                            <p className='h5'>Email:<a href="mailto: kushinagarbhikshusangh@gmail.com" className='text-decoration-none '>kushinagarbhikshusangh@gmail.com</a></p>
+                            <Row>
+                                <Col md={4}>
+                                    <p className='h5'>Contact no.:</p>
+                                </Col>
+                                <Col md={8}>
+                             <ul className=' list-unstyled'>
+                              
+                              <li>
+                                  <a href="tel:+91-9794625059" className='text-decoration-none  h5'><FaPhoneSquareAlt /> +91-9794625059</a>
+                              </li>
+                              <li>
+                                  <a href="tel:+91-9455044309" className='text-decoration-none h5'><FaPhoneSquareAlt /> +91-9455044309</a>
+                              </li>
+                              <li>
+                                  <a href="tel:+91-9935874061" className='text-decoration-none h5'><FaPhoneSquareAlt /> +91-9935874061</a>
+                              </li>
+                          </ul></Col>
+                            </Row>
+                               
                         </Container>
                     </div>
                 </form>
