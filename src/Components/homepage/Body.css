@@ -1,0 +1,10 @@
+.bg-body {
+    background-image: url("./ddArtboard1kushi.svg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .b-body{
+      height: 80vh;
+  }
